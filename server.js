@@ -24,3 +24,5 @@ app.post("/login", (req, res) => {
 app.listen(5000, () => {
   console.log("Server running on port 5000");
 });
+
+mongoose.connect("mongodb+srv://howlor:howlor123@cluster0.yelzxdr.mongodb.net/shop?retryWrites=true&w=majority")
