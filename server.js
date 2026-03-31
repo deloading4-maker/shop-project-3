@@ -1,3 +1,7 @@
+console.log("SERVER STARTED");
+app.get("/", (req, res) => {
+  res.send("WORKS");
+});
 const express = require("express");
 const app = express();
 
